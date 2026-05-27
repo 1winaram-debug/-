@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Կամավորություն - ԷկոԱնտառ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-6"/><path d="M12 16c-3.5 0-6-2.5-6-6s3.5-6 6-6 6 2.5 6 6-2.5 6-6 6z"/><path d="M8 8a4 4 0 1 1 8 0"/></svg>
+                ԷկոԱնտառ
+            </a>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Գլխավոր</a></li>
+                <li class="dropdown">
+                    <button>Տեղեկատվություն ▾</button>
+                    <div class="dropdown-content">
+                        <a href="rules.html">Անտառի կանոններ</a>
+                        <a href="threats.html">Սպառնալիքներ</a>
+                        <a href="fauna.html">Կենդանական աշխարհ</a>
+                        <a href="flora.html">Բուսական աշխարհ</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="active">Ինչպես օգնել ▾</button>
+                    <div class="dropdown-content">
+                        <a href="action.html">Գործողություններ</a>
+                        <a href="volunteering.html" class="active">Կամավորություն</a>
+                    </div>
+                </li>
+                <li><a href="quizzes.html">Վիկտորինա</a></li>
+                <li><a href="about.html">Մեր մասին</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-header animate-fade-in-up">
+            <h1>Դարձեք կամավոր և փրկեք մեր անտառները</h1>
+            <p>Միացեք մեր համայնքին և դարձեք փոփոխության մի մասը: Ձեր ժամանակը և էներգիան կարող են իրական տարբերություն ստեղծել:</p>
+        </div>
+
+        <div class="content-section animate-fade-in-up">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+                <div>
+                    <h2>Ինչու՞ դառնալ կամավոր</h2>
+                    <ul style="list-style: none; margin-left: 0;">
+                        <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem;">
+                            <span style="color: var(--accent-color); font-weight: bold;">✓</span>
+                            <span>Ձեռք բերեք նոր գիտելիքներ էկոլոգիայի և բնության մասին</span>
+                        </li>
+                        <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem;">
+                            <span style="color: var(--accent-color); font-weight: bold;">✓</span>
+                            <span>Հանդիպեք համախոհների և ստեղծեք նոր կապեր</span>
+                        </li>
+                        <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem;">
+                            <span style="color: var(--accent-color); font-weight: bold;">✓</span>
+                            <span>Անմիջական ներդրում ունեցեք Հայաստանի բնության պահպանման գործում</span>
+                        </li>
+                        <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem;">
+                            <span style="color: var(--accent-color); font-weight: bold;">✓</span>
+                            <span>Ստացեք կամավորության վկայական և փորձառություն</span>
+                        </li>
+                    </ul>
+                </div>
+                <div style="background: white; padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-md);">
+                    <h3 style="margin-bottom: 1.5rem;">Միացեք մեզ</h3>
+                    <form onsubmit="event.preventDefault(); alert('Շնորհակալություն! Մենք կապ կհաստատենք ձեզ հետ:');">
+                        <div style="margin-bottom: 1rem;">
+                            <label style="display: block; margin-bottom: 0.5rem;">Անուն Ազգանուն</label>
+                            <input type="text" placeholder="Ձեր անունը" style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 8px;">
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <label style="display: block; margin-bottom: 0.5rem;">Էլ. փոստ</label>
+                            <input type="email" placeholder="email@example.com" style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 8px;">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem;">Ինչպե՞ս եք ուզում օգնել</label>
+                            <select style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 8px;">
+                                <option>Ծառատունկ</option>
+                                <option>Մաքրման աշխատանքներ</option>
+                                <option>Իրազեկման բարձրացում</option>
+                                <option>Այլ</option>
+                            </select>
+                        </div>
+                        <button class="btn" style="width: 100%;">Ուղարկել հայտը</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card animate-fade-in-up delay-1">
+                <h3>Կամավորական ճամբարներ</h3>
+                <p>Ամեն ամառ մենք կազմակերպում ենք ճամբարներ Հայաստանի տարբեր անտառային շրջաններում: Սա հիանալի հնարավորություն է ապրել բնության գրկում և աշխատել անտառի բարելավման վրա:</p>
+            </div>
+            
+            <div class="card animate-fade-in-up delay-2">
+                <h3>Էկո-կրթական ծրագրեր</h3>
+                <p>Մենք այցելում ենք դպրոցներ և համալսարաններ՝ դասախոսություններ և վորքշոփեր անցկացնելու համար: Դուք կարող եք դառնալ մեր խոսնակներից մեկը:</p>
+            </div>
+
+            <div class="card animate-fade-in-up delay-3">
+                <h3>Թվային կամավորություն</h3>
+                <p>Եթե չեք կարող ֆիզիկապես ներկա լինել, օգնեք մեզ առցանց: Մեզ պետք են դիզայներներ, թարգմանիչներ և SMM մասնագետներ մեր ձայնը լսելի դարձնելու համար:</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h4>ԷկոԱնտառ</h4>
+            <p>&copy; 2026 ԷկոԱնտառ: Բոլոր իրավունքները պաշտպանված են:</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
